@@ -39,7 +39,19 @@ export const testimonialType = defineType({
     }),
     defineField({
       name: 'authorPosition',
-      type: 'string',
+      type: 'object',
+      fields: [
+        {
+          name: 'en',
+          title: 'English',
+          type: 'text',
+        },
+        {
+          name: 'cs',
+          title: 'Czech',
+          type: 'text',
+        },
+      ],
     }),
     defineField({
       name: 'publishedAt',
