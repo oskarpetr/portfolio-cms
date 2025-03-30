@@ -44,12 +44,12 @@ export const testimonialType = defineType({
         {
           name: 'en',
           title: 'English',
-          type: 'text',
+          type: 'string',
         },
         {
           name: 'cs',
           title: 'Czech',
-          type: 'text',
+          type: 'string',
         },
       ],
     }),
