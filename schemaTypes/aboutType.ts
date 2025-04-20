@@ -22,5 +22,21 @@ export const aboutType = defineType({
         },
       ],
     }),
+    defineField({
+      name: 'process',
+      type: 'object',
+      fields: [
+        {
+          name: 'en',
+          title: 'English',
+          type: 'text',
+        },
+        {
+          name: 'cs',
+          title: 'Czech',
+          type: 'text',
+        },
+      ],
+    }),
   ],
 })
