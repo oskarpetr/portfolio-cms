@@ -7,6 +7,7 @@ import {serviceType} from './serviceType'
 import {tagType} from './tagType'
 import {aboutType} from './aboutType'
 import {testimonialType} from './testimonialType'
+import {inquiryType} from './inquiryType'
 
 export const schemaTypes: {types: SchemaTypeDefinition[]} = {
   types: [
@@ -17,5 +18,6 @@ export const schemaTypes: {types: SchemaTypeDefinition[]} = {
     articleType,
     graphicDesignType,
     testimonialType,
+    inquiryType,
   ],
 }
