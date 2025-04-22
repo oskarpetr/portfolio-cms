@@ -1,0 +1,5 @@
+{
+  "buildCommand": "sanity build --no-minify",
+  "outputDirectory": "dist",
+  "framework": null
+}
