@@ -12,6 +12,10 @@ export const invoiceType = defineType({
       type: 'slug',
     }),
     defineField({
+      name: 'client',
+      type: 'string',
+    }),
+    defineField({
       name: 'invoice',
       type: 'file',
     }),
