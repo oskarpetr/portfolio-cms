@@ -33,7 +33,6 @@ export const projectType = defineType({
         },
       ],
     }),
-
     defineField({
       name: 'personal',
       type: 'boolean',
