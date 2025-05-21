@@ -13,6 +13,22 @@ export const aboutType = defineType({
         {
           name: 'en',
           title: 'English',
+          type: 'string',
+        },
+        {
+          name: 'cs',
+          title: 'Czech',
+          type: 'string',
+        },
+      ],
+    }),
+    defineField({
+      name: 'subtitle',
+      type: 'object',
+      fields: [
+        {
+          name: 'en',
+          title: 'English',
           type: 'text',
         },
         {
