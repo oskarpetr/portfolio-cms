@@ -31,5 +31,9 @@ export const inquiryType = defineType({
       name: 'email',
       type: 'string',
     }),
+    defineField({
+      name: 'description',
+      type: 'text',
+    }),
   ],
 })
